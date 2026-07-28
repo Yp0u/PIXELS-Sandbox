@@ -4,7 +4,7 @@
 
   <h1>🧪 PIXELS Sandbox</h1>
   <p><b>Advanced Procedural Cellular Automata & Physics Engine</b></p>
-  <p><i>v0.02.001-BETA</i></p>
+  <p><i>v0.03.050-BETA</i></p>
 
   <!-- Badges -->
   <a href="https://github.com/Yp0u/PIXELS-Sandbox/releases/latest">
@@ -30,17 +30,43 @@
 
 ## 🌪️ Welcome to the Laboratory
 
-**PIXELS Sandbox** is a high-performance procedural physics engine that lets you play God at the atomic level. Build complex electrical circuits, construct automated machinery, grow lush forests, or watch them be consumed by creeping acid mist. 
+**PIXELS Sandbox** is a high-performance procedural physics engine that lets you play God at the atomic level. Build automated factories, design complex electrical networks, experiment with radioactive materials, generate energy, or unleash devastating chain reactions. 
 
 Everything interacts. Everything evolves. Everything runs in real-time.
 
 ## 🔥 Engine Capabilities
 
-* **⚛️ Deep Chemistry & Physics:** Over **60 unique elements**. Play with everything from basic water, sand, and lava to weaponized uranium, thermoelectric generators, lasers, and hazardous reactive gases. 
+* **⚛️ Deep Chemistry & Physics:** Over **70 unique elements**. Play with everything from basic water, sand, and lava to weaponized uranium, thermoelectric generators, lasers, and hazardous reactive gases. 
 * **🌡️ Dynamic Thermodynamics & Fields:** The simulation calculates real-time heat transfer, pressure differentials, energy accumulation in batteries, and the silent spread of background radiation.
 * **🎧 Pure Procedural Audio:** Zero `.wav` or `.mp3` files used. Every explosion, acid hiss, and electrical spark is **mathematically generated on the fly** using ADSR envelopes and dynamic stereo panning.
 * **⚡ Blazing Fast Optimization:** Powered by aggressive JIT compilation (**Numba**) and matrix mathematics (**NumPy**), the engine processes massive amounts of active particles without dropping frames.
 * **🛠️ Advanced UI & Control:** A fully custom user interface built for seamless interaction. Manage simulation states, switch analytical layers, and use precision brush mechanics to shape your world.
+
+---
+
+## ✨ What's New in v0.03.050-BETA
+
+This release significantly expands both the simulation engine and the user experience.
+
+### 🎨 User Interface
+- Completely redesigned interface for a cleaner and more intuitive workflow.
+- Added multiple keyboard shortcuts for faster interaction.
+- Improved menu navigation and overall usability.
+
+### ⚛️ New Elements
+10 new interactive elements have been introduced, including:
+
+- 🔥 Heat Generator
+- ☢️ Enriched Uranium
+- ⚡ Superconductor
+- 💣 Nuclear Bomb
+- 🧨 C4 Explosive
+- ...and 5 additional simulation elements.
+
+### 🌍 Simulation Improvements
+- Improved particle behavior and interaction accuracy.
+- Enhanced performance and overall simulation stability.
+- More realistic physical reactions between elements.
 
 ---
 
@@ -57,6 +83,17 @@ Explore the intuitive UI designed to give you total control over the chaos:
 |:---:|:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/09d8a906-586b-463c-93c4-696e67f88fb1" width="100%"> | <img src="https://github.com/user-attachments/assets/02eb63a9-4a4a-459b-8ed8-464b802d0813" width="100%"> | <img src="https://github.com/user-attachments/assets/6d95113b-5beb-46c2-8e7a-198b277c727f" width="100%"> |
 | *Manage your world: Save/Load states, adjust canvas scale, and control FPS/Pause.* | *Switch between 5 distinct physical layers (e.g., Thermal, Radiation) and toggle UI tooltips.* | *3 brush types, Copy/Paste mechanics, and dynamic scaling (Tip: Use `Ctrl + Mouse Wheel`).* |
+
+---
+
+## 📊 Engine Statistics
+
+- 🧪 70+ Interactive Elements
+- ⚗️ 180+ Chemical & Physical Reactions
+- 🌡️ 5 Simulation Layers
+- ⚡ Procedural Audio Engine
+- 🖥️ Standalone Windows Executable
+- 🚀 NumPy + Numba Optimized
 
 ---
 
