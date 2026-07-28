@@ -34,4 +34,4 @@ This release significantly expands both the simulation engine and the user exper
 - Added canvas scaling controls.
 
 [0.03.050-BETA]: https://github.com/Yp0u/PIXELS-Sandbox/releases/tag/v0.03.050-beta
-[0.02.000-BETA]: https://github.com/Yp0u/PIXELS-Sandbox/releases/tag/v0.02.000-beta
+[0.02.000-BETA]: https://github.com/Yp0u/PIXELS-Sandbox/releases/tag/0.02.001-BETA
