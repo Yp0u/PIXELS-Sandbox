@@ -4,7 +4,7 @@
 
   <h1>🧪 PIXELS Sandbox</h1>
   <p><b>Advanced Procedural Cellular Automata & Physics Engine</b></p>
-  <p><i>v0.03.050-BETA</i></p>
+  <p><i>v0.04.000-BETA</i></p>
 
   <!-- Badges -->
   <a href="https://github.com/Yp0u/PIXELS-Sandbox/releases/latest">
@@ -36,37 +36,29 @@ Everything interacts. Everything evolves. Everything runs in real-time.
 
 ## 🔥 Engine Capabilities
 
-* **⚛️ Deep Chemistry & Physics:** Over **70 unique elements**. Play with everything from basic water, sand, and lava to weaponized uranium, thermoelectric generators, lasers, and hazardous reactive gases. 
-* **🌡️ Dynamic Thermodynamics & Fields:** The simulation calculates real-time heat transfer, pressure differentials, energy accumulation in batteries, and the silent spread of background radiation.
+* **⚛️ Deep Chemistry & Physics:** Over **120 unique elements**. Play with everything from basic water, sand, and lava to weaponized uranium, superconductors, lasers, and hazardous reactive gases. 
+* **🌡️ Dynamic Thermodynamics & Fields:** The simulation calculates real-time heat transfer, dynamic pressure differentials, energy accumulation in batteries, and the silent spread of complex background radiation.
 * **🎧 Pure Procedural Audio:** Zero `.wav` or `.mp3` files used. Every explosion, acid hiss, and electrical spark is **mathematically generated on the fly** using ADSR envelopes and dynamic stereo panning.
-* **⚡ Blazing Fast Optimization:** Powered by aggressive JIT compilation (**Numba**) and matrix mathematics (**NumPy**), the engine processes massive amounts of active particles without dropping frames.
+* **⚡ Blazing Fast Optimization:** Powered by aggressive JIT compilation (**Numba**) and matrix mathematics (**NumPy**), the engine processes hundreds of thousands of active particles without dropping frames.
 * **🛠️ Advanced UI & Control:** A fully custom user interface built for seamless interaction. Manage simulation states, switch analytical layers, and use precision brush mechanics to shape your world.
 
 ---
 
-## ✨ What's New in v0.03.050-BETA
+## ✨ What's New in v0.04.000-BETA
 
-This release significantly expands both the simulation engine and the user experience.
+This massive build introduces the highly requested freeze mechanic, a completely improved core structure, a built-in auto-updater, and a gigantic expansion of elements and complex reactions.
 
-### 🎨 User Interface
-- Completely redesigned interface for a cleaner and more intuitive workflow.
-- Added multiple keyboard shortcuts for faster interaction.
-- Improved menu navigation and overall usability.
+### 🧊 Freeze & Unfreeze Mechanics
+* **Absolute Control:** You can now freeze (fix) or unfreeze specific elements, or even freeze all elements in the game simultaneously for precise building and controlled experiments.
 
-### ⚛️ New Elements
-10 new interactive elements have been introduced, including:
+### ⚛️ Massive Sandbox Expansion
+* **120 Interactive Elements:** We've expanded the roster from 70 to a whopping 120 elements!
+* **300 Chemical Reactions:** A complete overhaul and expansion of all chemical interactions, bringing the total to 300 unique reactions.
+* **200 Layer Reactions:** Layer-based physics reactions (temperature, radiation, pressure, voltage) have been doubled from 100 to 200, creating incredibly complex environmental dynamics.
 
-- 🔥 Heat Generator
-- ☢️ Enriched Uranium
-- ⚡ Superconductor
-- 💣 Nuclear Bomb
-- 🧨 C4 Explosive
-- ...and 5 additional simulation elements.
-
-### 🌍 Simulation Improvements
-- Improved particle behavior and interaction accuracy.
-- Enhanced performance and overall simulation stability.
-- More realistic physical reactions between elements.
+### 🔄 Auto-Updater & ⚙️ Core Structure
+* **Auto-Update System:** The sandbox will now automatically update itself in the background, ensuring you always have the latest features and fixes without manual downloads.
+* **Improved Core Structure:** The fundamental architecture of the game has been heavily optimized and polished for better stability, scalability, and overall performance.
 
 ---
 
@@ -74,24 +66,25 @@ This release significantly expands both the simulation engine and the user exper
 
 Explore the intuitive UI designed to give you total control over the chaos:
 
-| 1. Auto-Generative Menus | 2. Simulated Backgrounds | 3. The Workspace |
+| 1. Auto-Generative Menu (Var. 1) | 2. Auto-Generative Menu (Var. 2) | 3. Workspace & Element List |
 |:---:|:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/c9ba9021-99fa-43c2-a4f7-b5ff5c8feabc" width="100%"> | <img src="https://github.com/user-attachments/assets/b0a536d8-ef3e-4260-8e8c-fb270da56487" width="100%"> | <img src="https://github.com/user-attachments/assets/9ccafee6-b635-4cde-adbd-cc7add1c25eb" width="100%"> |
-| *The main menu populates itself with random elements interacting in real-time.* | *A fully filled generative background demonstrating the engine's particle capacity.* | *Your starting 100x100 canvas alongside the comprehensive element library.* |
+| *The main menu populates itself with random elements interacting in real-time.* | *Another generative background simulation running live inside the main menu.* | *Empty canvas workspace featuring the expanded 120-element library.* |
 
-| 4. System Controls (File) | 5. Analytical Layers (View) | 6. Precision Brush Engine |
+| 4. Beach Simulation Scene | 5. Analytical Layers Tab | 6. Precision Brush Tab |
 |:---:|:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/09d8a906-586b-463c-93c4-696e67f88fb1" width="100%"> | <img src="https://github.com/user-attachments/assets/02eb63a9-4a4a-459b-8ed8-464b802d0813" width="100%"> | <img src="https://github.com/user-attachments/assets/6d95113b-5beb-46c2-8e7a-198b277c727f" width="100%"> |
-| *Manage your world: Save/Load states, adjust canvas scale, and control FPS/Pause.* | *Switch between 5 distinct physical layers (e.g., Thermal, Radiation) and toggle UI tooltips.* | *3 brush types, Copy/Paste mechanics, and dynamic scaling (Tip: Use `Ctrl + Mouse Wheel`).* |
+| *Demonstration of physical interaction between sand, water, and environment.* | *Switch between 5 distinct physical layers (Thermal, Radiation, Pressure, Voltage, Energy).* | *3 brush types, Copy/Paste mechanics, dynamic scaling (`Ctrl + Mouse Wheel`), and the **Freeze Tool**.* |
 
 ---
 
 ## 📊 Engine Statistics
 
-- 🧪 70+ Interactive Elements
-- ⚗️ 180+ Chemical & Physical Reactions
-- 🌡️ 5 Simulation Layers
+- 🧪 120+ Interactive Elements
+- ⚗️ 300 Unique Chemical Reactions
+- 🌡️ 200 Layer Reactions across 5 Simulation Layers
 - ⚡ Procedural Audio Engine
+- 🔄 Built-in Auto-Updater
 - 🖥️ Standalone Windows Executable
 - 🚀 NumPy + Numba Optimized
 
