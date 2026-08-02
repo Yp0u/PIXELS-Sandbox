@@ -4,7 +4,7 @@
 
   <h1>🧪 PIXELS Sandbox</h1>
   <p><b>Advanced Procedural Cellular Automata & Physics Engine</b></p>
-  <p><i>v0.04.000-BETA</i></p>
+  <p><i>v0.05.000-BETA</i></p>
 
   <!-- Badges -->
   <a href="https://github.com/Yp0u/PIXELS-Sandbox/releases/latest">
@@ -36,29 +36,29 @@ Everything interacts. Everything evolves. Everything runs in real-time.
 
 ## 🔥 Engine Capabilities
 
-* **⚛️ Deep Chemistry & Physics:** Over **120 unique elements**. Play with everything from basic water, sand, and lava to weaponized uranium, superconductors, lasers, and hazardous reactive gases. 
+* **⚛️ Deep Chemistry & Physics:** Over **124 unique elements**. Play with everything from basic water, sand, and lava to weaponized uranium, superconductors, lasers, and hazardous reactive gases. 
 * **🌡️ Dynamic Thermodynamics & Fields:** The simulation calculates real-time heat transfer, dynamic pressure differentials, energy accumulation in batteries, and the silent spread of complex background radiation.
+* **🛠️ Custom Creation Engine:** Built-in tools allow you to seamlessly create and edit elements, chemical reactions, and layer behaviors directly within the game.
 * **🎧 Pure Procedural Audio:** Zero `.wav` or `.mp3` files used. Every explosion, acid hiss, and electrical spark is **mathematically generated on the fly** using ADSR envelopes and dynamic stereo panning.
-* **⚡ Blazing Fast Optimization:** Powered by aggressive JIT compilation (**Numba**) and matrix mathematics (**NumPy**), the engine processes hundreds of thousands of active particles without dropping frames.
-* **🛠️ Advanced UI & Control:** A fully custom user interface built for seamless interaction. Manage simulation states, switch analytical layers, and use precision brush mechanics to shape your world.
+* **⚡ Blazing Fast Optimization:** Powered by aggressive JIT compilation (**Numba**), matrix mathematics (**NumPy**), and a brand-new **64x64 Chunk System**, the engine processes hundreds of thousands of active particles without dropping frames.
 
 ---
 
-## ✨ What's New in v0.04.000-BETA
+## ✨ What's New in v0.05.000-BETA
 
-This massive build introduces the highly requested freeze mechanic, a completely improved core structure, a built-in auto-updater, and a gigantic expansion of elements and complex reactions.
+This massive update revolutionizes performance and customization by introducing a chunk optimization system, full in-game editors, global localization, and a gigantic expansion of the physics and chemistry engines.
 
-### 🧊 Freeze & Unfreeze Mechanics
-* **Absolute Control:** You can now freeze (fix) or unfreeze specific elements, or even freeze all elements in the game simultaneously for precise building and controlled experiments.
+### 🛠️ In-Game Creation & Editing
+* **Ultimate Customization:** You can now create and fully edit custom elements, chemical reactions, and layer reactions directly through the UI without touching the code.
+
+### 📦 Chunk System & Global Support
+* **64x64 Chunk Architecture:** The world is now divided into 64 by 64 pixel chunks, massively improving simulation speed, rendering, and overall performance.
+* **Multilingual Translation:** PIXELS Sandbox now features complete translation into **12 different languages**, making the laboratory accessible to players worldwide.
 
 ### ⚛️ Massive Sandbox Expansion
-* **120 Interactive Elements:** We've expanded the roster from 70 to a whopping 120 elements!
-* **300 Chemical Reactions:** A complete overhaul and expansion of all chemical interactions, bringing the total to 300 unique reactions.
-* **200 Layer Reactions:** Layer-based physics reactions (temperature, radiation, pressure, voltage) have been doubled from 100 to 200, creating incredibly complex environmental dynamics.
-
-### 🔄 Auto-Updater & ⚙️ Core Structure
-* **Auto-Update System:** The sandbox will now automatically update itself in the background, ensuring you always have the latest features and fixes without manual downloads.
-* **Improved Core Structure:** The fundamental architecture of the game has been heavily optimized and polished for better stability, scalability, and overall performance.
+* **124 Interactive Elements:** The element roster has been expanded to 124 unique materials.
+* **400 Chemical Reactions:** The chemical interaction engine has been pushed to the limit, now featuring 400 unique reactions.
+* **400 Layer Reactions:** Layer-based physics reactions (temperature, radiation, pressure, voltage) have been doubled to 400, creating incredibly complex environmental dynamics.
 
 ---
 
@@ -69,7 +69,7 @@ Explore the intuitive UI designed to give you total control over the chaos:
 | 1. Auto-Generative Menu (Var. 1) | 2. Auto-Generative Menu (Var. 2) | 3. Workspace & Element List |
 |:---:|:---:|:---:|
 | <img src="https://github.com/user-attachments/assets/c9ba9021-99fa-43c2-a4f7-b5ff5c8feabc" width="100%"> | <img src="https://github.com/user-attachments/assets/b0a536d8-ef3e-4260-8e8c-fb270da56487" width="100%"> | <img src="https://github.com/user-attachments/assets/9ccafee6-b635-4cde-adbd-cc7add1c25eb" width="100%"> |
-| *The main menu populates itself with random elements interacting in real-time.* | *Another generative background simulation running live inside the main menu.* | *Empty canvas workspace featuring the expanded 120-element library.* |
+| *The main menu populates itself with random elements interacting in real-time.* | *Another generative background simulation running live inside the main menu.* | *Empty canvas workspace featuring the expanded 124-element library.* |
 
 | 4. Beach Simulation Scene | 5. Analytical Layers Tab | 6. Precision Brush Tab |
 |:---:|:---:|:---:|
@@ -80,9 +80,12 @@ Explore the intuitive UI designed to give you total control over the chaos:
 
 ## 📊 Engine Statistics
 
-- 🧪 120+ Interactive Elements
-- ⚗️ 300 Unique Chemical Reactions
-- 🌡️ 200 Layer Reactions across 5 Simulation Layers
+- 🧪 **124+** Interactive Elements
+- ⚗️ **400** Unique Chemical Reactions
+- 🌡️ **400** Layer Reactions across 5 Simulation Layers
+- 📦 **64x64** Chunk Architecture System
+- 🌍 **12** Supported Languages
+- 🛠️ Full In-Game Element & Reaction Editors
 - ⚡ Procedural Audio Engine
 - 🔄 Built-in Auto-Updater
 - 🖥️ Standalone Windows Executable
