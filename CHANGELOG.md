@@ -5,6 +5,17 @@ All notable changes to the **PIXELS Sandbox** project will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project uses Semantic Versioning (with BETA tags for early development).
 
+## [0.05.005-BETA] - 2026-08-07
+
+A patch focused on stability, bug squashing, and reaction balancing.
+
+### Changed
+- ⚗️ **Reaction Balancing**: Updated and refined over 40 reactions to improve interaction accuracy and simulation logic.
+
+### Fixed
+- 🔄 **Auto-Updater**: Fixed critical issues with the auto-updater system to ensure seamless background updates.
+- 🐛 **Bug Fixes**: Resolved 5+ various bugs and glitches, significantly improving overall stability and engine performance.
+
 ## [0.05.000-BETA] - 2026-08-02
 
 This update revolutionizes performance and customization by introducing a 64x64 chunk system, full in-game editors for elements and reactions, global localization, and a massive expansion of the physics and chemistry engines.
@@ -62,6 +73,7 @@ This release significantly expands both the simulation engine and the user exper
 - Basic element interactions.
 - Added canvas scaling controls.
 
+[0.05.005-BETA]: https://github.com/Yp0u/PIXELS-Sandbox/releases/tag/v0.05.005-beta
 [0.05.000-BETA]: https://github.com/Yp0u/PIXELS-Sandbox/releases/tag/v0.05.000-beta
 [0.04.000-BETA]: https://github.com/Yp0u/PIXELS-Sandbox/releases/tag/v0.04.000-beta
 [0.03.050-BETA]: https://github.com/Yp0u/PIXELS-Sandbox/releases/tag/v0.03.050-beta
