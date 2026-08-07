@@ -4,7 +4,7 @@
 
   <h1>🧪 PIXELS Sandbox</h1>
   <p><b>Advanced Procedural Cellular Automata & Physics Engine</b></p>
-  <p><i>v0.05.000-BETA</i></p>
+  <p><i>v0.05.005-BETA</i></p>
 
   <!-- Badges -->
   <a href="https://github.com/Yp0u/PIXELS-Sandbox/releases/latest">
@@ -44,9 +44,14 @@ Everything interacts. Everything evolves. Everything runs in real-time.
 
 ---
 
-## ✨ What's New in v0.05.000-BETA
+## ✨ What's New in v0.05.005-BETA
 
-This massive update revolutionizes performance and customization by introducing a chunk optimization system, full in-game editors, global localization, and a gigantic expansion of the physics and chemistry engines.
+This update brings significant stability improvements, refines the physics engine, and resolves critical bugs.
+
+### 🐛 Stability & Polish
+* **Reactions Overhaul:** Over 40 chemical and layer reactions have been updated and balanced for better simulation accuracy.
+* **Auto-Updater Fixed:** The built-in auto-updater has been fully fixed and stabilized for seamless future patches.
+* **Bug Squashing:** Fixed 5+ known bugs, leading to a much smoother and more stable sandbox experience.
 
 ### 🛠️ In-Game Creation & Editing
 * **Ultimate Customization:** You can now create and fully edit custom elements, chemical reactions, and layer reactions directly through the UI without touching the code.
